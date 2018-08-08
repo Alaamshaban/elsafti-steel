@@ -1,0 +1,22 @@
+
+#page {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+  }
+
+  .rounded-imge{
+    border-radius: 50%;
+  }
+
+  .main-header{
+    background-color: #0965CC
+  }
+#carouselExampleIndicators{
+  float: left;
+  margin-left: 13px;
+}
+.profile {
+  width: 367px;
+  background: url(assets/profile.jpg) top center no-repeat #FFF;
+}
