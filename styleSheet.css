@@ -5,7 +5,7 @@ body {
 #page {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 200px;
 margin-bottom:100px;
 }
 
@@ -56,7 +56,25 @@ ul.owl-carousel{
   color: white;
 }
 
-
+.products_section{
+  min-height: 100px;
+  padding: 10px 0 10px;
+  background-image: url(assets/cover.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  position: relative;
+    overflow: hidden;
+}
+.mk-video-mask, .mk-video-color-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
 
 /* .dropdown {
   position: relative;
