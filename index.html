@@ -13,12 +13,13 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>ElSafti Steel</title>
 
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+    <!-- <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="./index.html">
                 <img src="assets/logo.PNG" width="100" height="100" alt="" class="rounded">
@@ -29,10 +30,10 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <!-- left navigation links -->
+
             <ul class="navbar-nav">
 
-                <!-- active navigation link -->
+             
                 <li class="nav-item active">
                     <a class="nav-link" href="./index.html">Home
                         <span class="sr-only">(current)</span>
@@ -40,7 +41,7 @@
 
                 </li>
 
-                <!-- regular navigation link -->
+      
                 <li class="nav-item dropdown">
                     <a class="nav-link dropbtn" href="./pages/about_us.html">About</a>
                 </li>
@@ -53,11 +54,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/contact_us.html">Contact Us</a>
                 </li>
-                <!-- more navigation links -->
+              
 
             </ul>
 
-            <!-- right navigation link -->
+
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
                     <div class="input-group mb-3">
@@ -71,54 +72,179 @@
                 </li>
             </ul>
         </div>
+    </nav> -->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="./index.html">
+                <img src="assets/logo.png" height="120" width="100">
+            </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./pages/about_us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="input-group-text" id="basic-addon2">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+        </div>
     </nav>
-    <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item custom-carousel-item active" style="background-image: url('assets/first.PNG')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>First Slide</h3>
-                        <p>This is a description for the first slide.</p>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="assets/first.PNG" alt="Uthappizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Uthappizza
+                                    <span class="badge badge-danger">Current</span>
+                                    <!-- <span class="badge badge-pill badge-default">$4.99</span> -->
+                                </h2>
+                                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola
+                                    olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="assets/seconed.PNG" alt="Uthappizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Weekend Grand Buffet
+                                    <span class="badge badge-danger">NEW</span>
+                                </h2>
+                                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                                    appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft
+                                    drinks. All for just $19.99 per person
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="assets/third.PNG" alt="Alberto Somayya">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Alberto Somayya
+                                </h2>
+                                <h4>Executive Chef</h4>
+                                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely
+                                    with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian
+                                    fusion experiences.
+                                </p>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+                        </ol>
                     </div>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
                 </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item custom-carousel-item" style="background-image: url('assets/seconed.PNG')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Second Slide</h3>
-                        <p>This is a description for the second slide.</p>
-                    </div>
+            </div>
+            <div class="col-12 mt-2">
+                <div class="card card-body bg-light">
+                    <blockquote class="blockquote">
+                        <h1>
+                            <span class="text-danger">WELCOME</span>
+                            <br/> To the most unique construction Egyptian Company</h1>
+                        <footer class="blockquote-footer">AlSafti Steel,
+                            <cite title="Source Title">founded 2011</cite>
+                        </footer>
+                    </blockquote>
                 </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item custom-carousel-item" style="background-image: url('assets/third.PNG')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
+            </div>
+        </div>
+
+        <div class="row" id="projects">
+            <div class=" row-content align-items-center">
+                <div class="text-center">
+                    <h1>Our Projects</h1>
+                </div>
+                <div class="col-12 col-sm-4  order-sm-last col-md-3">
+                    <h3>Project Name</h3>
+                </div>
+                <div class="col col-sm order-sm-first col-md">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" width="300" height="300" src="assets/project1.JPG" alt="Uthappizza">
+                        <div class="media-body">
+                            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class=" row-content align-items-center">
+                <div class="col-12 col-sm-4  order-sm-last col-md-3">
+                    <h3>Project Name</h3>
+                </div>
+                <div class="col col-sm order-sm-first col-md">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" width="300" height="300" src="assets/project2.JPG" alt="Uthappizza">
+                        <div class="media-body">
+                            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" row-content align-items-center">
+                <div class="col-12 col-sm-4  order-sm-last col-md-3">
+                    <h3>Project Name</h3>
+                </div>
+                <div class="col col-sm order-sm-first col-md">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center" width="300" height="300" src="assets/project3.jpg" alt="Uthappizza">
+                        <div class="media-body">
+                            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-
-    <div id="page" class="container">
-
-        <div class="row">
 
 
-            <div class="col-md-3 col-xs-12 text-center">
+        <!-- <div class="col-md-3 col-xs-12 text-center">
                 <h1 class="mb-1 text-center">
                     <i class="far fa-sun te"></i>
                 </h1>
@@ -151,8 +277,8 @@
                 <h3>HSE Policy</h3>
                 <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
                 <small class="text-muted">Donec id elit non mi porta.</small>
-            </div>
-        </div>
+            </div> -->
+
         <!-- <div class="col-md-12 col-xs12">
 
                     <div class="card" style="width: 38rem;">
@@ -165,7 +291,7 @@
             </div> -->
 
 
-        <div class="row text-center" id="projects">
+        <!-- <div class="row text-center" id="projects">
             <h1 class="col-md-12 mb-4 mt-4">Current Projects</h1>
             <div class="col-md-3 col-xs-12 ">
                 <div class="row">
@@ -189,7 +315,7 @@
                     </div>
                     <div class="col-md-12 col-xs-12">
                         <h2 class="mb-4 mt-4">Project Name</h2>
-                        <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                             ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -204,7 +330,7 @@
                     </div>
                     <div class="col-md-12 col-xs-12">
                         <h2 class="mb-4 mt-4">Project Name</h2>
-                        <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                             ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -219,7 +345,7 @@
                     </div>
                     <div class="col-md-12 col-xs-12">
                         <h2 class="mb-4 mt-4">Project Name</h2>
-                        <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                             ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
@@ -227,18 +353,18 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <div class="row text-center" id="services">
-            <h1 class="col-md-12 mb-4 mt-4">Our Services</h1>
+            <h1 class="col-md-12 mt-4">Our Services</h1>
             <div class="col-md-3 col-xs-12 ">
                 <h1 class="mb-1 text-center">
                     <i class="fas fa-globe"></i>
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Spheres Construction</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -251,7 +377,7 @@
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Scope of Services</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -264,7 +390,7 @@
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Scope of Supply</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -276,8 +402,9 @@
                     <i class="fas fa-briefcase"></i>
                 </h1>
                 <div class="col-md-12 col-xs-12">
-                    <h2 class="mb-4 mt-4">Scope of <br /> Work</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <h2 class="mb-4 mt-4">Scope of
+                        <br /> Work</h2>
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -286,7 +413,7 @@
             </div>
         </div>
 
-        <div class="row text-center">
+        <!-- <div class="row text-center">
             <h1 class="col-md-12 mb-4 mt-4">Our Clients</h1>
             <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
@@ -295,7 +422,6 @@
                     <li data-target="#blogCarousel" data-slide-to="1"></li>
                 </ol>
 
-                <!-- Carousel items -->
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
@@ -331,9 +457,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!--.row-->
                     </div>
-                    <!--.item-->
 
                     <div class="carousel-item">
                         <div class="row">
@@ -368,77 +492,76 @@
                                 </a>
                             </div>
                         </div>
-                        <!--.row-->
                     </div>
-                    <!--.item-->
-
                 </div>
-                <!--.carousel-inner-->
             </div>
-            <!--.Carousel-->
-        </div>
+
+        </div> -->
 
     </div>
     <!-- Footer -->
-    <footer class="page-footer font-small indigo mt-2">
-        <!-- Footer Links -->
+    <footer class="footer">
         <div class="container">
-            <!-- Grid row-->
-            <!-- <div class="row">
-                    <ul class="list-inline text-center col-md-12">
-                            <li class="list-inline-item mt-4 col-md-2 col-xs-1"><a class="social-icon text-xs-center" target="_blank" href="./pages/about_us.html">About US </a></li>
-                            <li class="list-inline-item mt-4 col-md-2 col-xs-1"><a class="social-icon text-xs-center" target="_blank" href="#projects">Products</a></li>
-                            <li class="list-inline-item mt-4 col-md-2 col-xs-1"><a class="social-icon text-xs-center" target="_blank" href="#services">Services</a></li>
-                            <li class="list-inline-item mt-4 col-md-2 col-xs-1"><a class="social-icon text-xs-center" target="_blank" href="./pages/contact_us.html">Contact US</a></li>
-                         </ul>
-            </div> -->
-            <!-- Grid row-->
-            <!-- <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-          <div class="row pb-3">
-    
-            <div class="col-md-12">
-    
-              <div class="mb-5 flex-center">
-    
-                <a class="fb-ic">
-                  <i class="fa fa-facebook fa-lg white-text mr-4"> </i>
-                </a>
-
-                <a class="tw-ic">
-                  <i class="fa fa-twitter fa-lg white-text mr-4"> </i>
-
-                <a class="gplus-ic">
-                  <i class="fa fa-google-plus fa-lg white-text mr-4"> </i>
-                </a>
-
-                <a class="li-ic">
-                  <i class="fa fa-linkedin fa-lg white-text mr-4"> </i>
-                </a>
-
-                <a class="ins-ic">
-                  <i class="fa fa-instagram fa-lg white-text mr-4"> </i>
-                </a>
-
-                <a class="pin-ic">
-                  <i class="fa fa-pinterest fa-lg white-text"> </i>
-                </a>
-    
-              </div>
-    
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        Block 158, Industrial area
+                        <br> Ataqa
+                        <br> Suez, Egypt
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i>: 01094979444
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i>: 01551500006
+                        <i class="fa fa-phone fa-lg"></i>: 001025265405
+                        <br>
+                        <i class="fa fa-envelope fa-lg"></i>:
+                        <a href="mailto:Info@alsaftisst.com">Info@alsaftisst.com</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-social-icon" href="mailto:">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-    
-          </div> -->
-            <!-- Grid row-->
-
+            <div class="row justofy-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+            </div>
         </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-
     </footer>
     <!-- Footer -->
     <!-- Optional JavaScript -->
@@ -449,6 +572,23 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script>        
+        $(document).ready(function () {
+            $("#mycarousel").carousel({ interval: 500 });
+            $("#carouselButton").click(function () {
+                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                    $("#mycarousel").carousel('pause');
+                    $("#carouselButton").children("span").removeClass('fa-pause');
+                    $("#carouselButton").children("span").addClass('fa-play');
+                }
+                else if ($("#carouselButton").children("span").hasClass('fa-play')) {
+                    $("#mycarousel").carousel('cycle');
+                    $("#carouselButton").children("span").removeClass('fa-play');
+                    $("#carouselButton").children("span").addClass('fa-pause');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

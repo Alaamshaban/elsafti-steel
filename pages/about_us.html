@@ -12,47 +12,33 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>ElSafti Steel</title>
 
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img src="../assets/logo.PNG" width="100" height="100" alt="" class="rounded">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <!-- left navigation links -->
-            <ul class="navbar-nav">
-
-                <!-- active navigation link -->
-                <li class="nav-item ">
-                    <a class="nav-link" href="../index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-
-                </li>
-
-                <!-- regular navigation link -->
-                <li class="nav-item active">
-                    <a class="nav-link dropbtn" href="./about_us.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact_us.html">Contact Us</a>
-                </li>
-                <!-- more navigation links -->
-
-            </ul>
-
-            <!-- right navigation link -->
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
+            <a class="navbar-brand mr-auto" href="../index.html">
+                <img src="../assets/logo.png" height="120" width="100">
+            </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./about_us.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../pages/contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
                         <div class="input-group-append">
@@ -61,19 +47,27 @@
                             </button>
                         </div>
                     </div>
-                </li>
-            </ul>
+                </span>
+            </div>
+
         </div>
     </nav>
-    <div id="page" class="container">
-        <div class="row text-center">
+
+    <div class="container">
+        <div class="row" style="margin-top:7rem!important">
+            <div class="col-12">
+                <h3>About Us</h3>
+                <hr>
+            </div>
+        </div>
+        <!-- <div class="row text-center">
             <div class="col-md-3 col-xs-12 ">
                 <h1 class="mb-1 text-center">
                     <i class="far fa-envelope"></i>
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Founder Letter</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -86,7 +80,7 @@
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Our Vision</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -99,7 +93,7 @@
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Our Mission</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -112,77 +106,209 @@
                 </h1>
                 <div class="col-md-12 col-xs-12">
                     <h2 class="mb-4 mt-4">Business Prinsiples</h2>
-                    <p  class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-justify text-md-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
                         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
+        </div> -->
+        <div class="row  align-items-center">
+            <div class="col-sm-6">
+                <h2>Our History</h2>
+                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong
+                    Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage
+                    from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world,
+                    you never know what will arrive on your plate the next time you visit us.</p>
+                <p>The restaurant traces its humble beginnings to
+                    <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first
+                    time the world's best cuisines in a pan.</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width: 30rem;">
+                    <img class="card-img-top" src="../assets/profile.jpg" alt="Card image cap">
+                        <div class="card">
+                            <div class="card-body">
+                                <dl class="row">
+                                    <!--Description list-->
+                                    <dt class="col-4">Standrization theorey</dt>
+                                    <!--Secription title-->
+                                    <dd class="col-8">Converting variables to a fixed parameters by following the international standards and codes</dd>
+                                    <!--Secription data-->
+                                    <dt class="col-4">Clients’ satisfaction</dt>
+                                    <dd class="col-8">Client’s satisfaction and trust is our first priority start from the local market to the international market.</dd>
+                                    <dt class="col-4">Scientific research</dt>
+                                    <dd class="col-8">Scientific research as the most important tool should be used to save money and time</dd>
+                                    <dt class="col-4">HSE Policy</dt>
+                                    <dd class="col-8">NerSel applies the HSE Management System try to have a safety performance we can be proud of</dd>
+                                </dl>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row  align-items-center">
+            <div class="col-12">
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#peter">
+                                    Founder Letter
+                                    <small>
+                                        <i class="far fa-envelope"></i>
+                                    </small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse show" id="peter" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="dannyhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#danny">
+                                    Our Vision
+                                    <small>
+                                        <i class="fas fa-eye"></i>
+                                    </small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="danny" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="agumbehead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+                                    Our Mission
+                                    <small>
+                                        <i class="far fa-lightbulb"></i>
+                                    </small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="agumbe" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="albertohead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+                                    Business Prinsiples
+                                    <small>
+                                        <i class="fas fa-list"></i>
+                                    </small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="alberto" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- Footer -->
-    <footer class="page-footer font-small indigo mt-2">
-            <!-- Footer Links -->
-            <div class="container">
-                <!-- Grid row-->
-                <!-- <div class="row">
-                        <ul class="list-inline text-center col-md-12">
-                                <li class="list-inline-item mt-4 "><a class="social-icon text-xs-center" target="_blank" href="#">About US </a></li>
-                                <li class="list-inline-item mt-4 "><a class="social-icon text-xs-center" target="_blank" href="#">Products</a></li>
-                                <li class="list-inline-item mt-4 "><a class="social-icon text-xs-center" target="_blank" href="#">Services</a></li>
-                                <li class="list-inline-item mt-4 "><a class="social-icon text-xs-center" target="_blank" href="#">Products</a></li>
-                                <li class="list-inline-item mt-4"><a class="social-icon text-xs-center" target="_blank" href="#">Contact US</a></li>
-                             </ul>
-                </div> -->
-                <!-- Grid row-->
-                <!-- <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-              <div class="row pb-3">
-        
-                <div class="col-md-12">
-        
-                  <div class="mb-5 flex-center">
-        
-                    <a class="fb-ic">
-                      <i class="fa fa-facebook fa-lg white-text mr-4"> </i>
-                    </a>
-    
-                    <a class="tw-ic">
-                      <i class="fa fa-twitter fa-lg white-text mr-4"> </i>
-    
-                    <a class="gplus-ic">
-                      <i class="fa fa-google-plus fa-lg white-text mr-4"> </i>
-                    </a>
-    
-                    <a class="li-ic">
-                      <i class="fa fa-linkedin fa-lg white-text mr-4"> </i>
-                    </a>
-    
-                    <a class="ins-ic">
-                      <i class="fa fa-instagram fa-lg white-text mr-4"> </i>
-                    </a>
-    
-                    <a class="pin-ic">
-                      <i class="fa fa-pinterest fa-lg white-text"> </i>
-                    </a>
-        
-                  </div>
-        
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-        
-              </div> -->
-                <!-- Grid row-->
-    
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        Block 158, Industrial area
+                        <br> Ataqa
+                        <br> Suez, Egypt
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i>: 01094979444
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i>: 01551500006
+                        <i class="fa fa-phone fa-lg"></i>: 001025265405
+                        <br>
+                        <i class="fa fa-envelope fa-lg"></i>:
+                        <a href="mailto:Info@alsaftisst.com">Info@alsaftisst.com</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-social-icon" href="mailto:">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <!-- Footer Links -->
-    
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
             </div>
-            <!-- Copyright -->
-    
-        </footer>
+        </div>
+    </footer>
     <!-- Footer -->
 
     <!-- Optional JavaScript -->
